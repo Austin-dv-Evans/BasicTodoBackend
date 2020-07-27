@@ -1,5 +1,5 @@
 class TodosController < ApplicationController
-    before_action :find_todo, only: [:update, :destroy]
+    before_action :findTodo, only: [:update, :destroy]
     
 
 
